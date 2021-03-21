@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Gender" >
+        <menu >
+            <group android:id="@+id/group_gender_menu">
+                <item
+                    android:id="@+id/maschi"
+                    android:checkable="true"
+                    android:title="Maschi"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/femmine"
+                    android:checkable="true"
+                    android:title="Femmine"
+                    android:checked="true"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/modifica"
+        android:title="Modifica" />
+    <item
+        android:id="@+id/ordina"
+        android:title="Ordina" />
+</menu>
